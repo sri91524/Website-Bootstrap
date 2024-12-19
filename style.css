@@ -1,0 +1,78 @@
+.txtColor
+{
+    color:rgba(9, 44, 183, 0.881);
+}
+
+.divbg
+{
+    background-color: aliceblue;
+}
+
+.navbar,
+.navbar-collapse {
+  flex-direction: column;
+}
+.navbar-expand-lg .navbar-nav {
+  flex-direction: column;
+}
+
+.navbar .container-fluid, 
+.navbar-expand-lg .navbar-collapse, 
+.navbar-expand-lg .navbar-nav{
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.txtTitle
+{
+    color:rgb(196, 45, 45);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items:center;
+    font-size: 5vh;
+}
+
+.txtUserTitle
+{
+    color:rgb(196, 45, 45);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items:center;
+    font-size: 3vh;
+}
+
+.txtUserEdit
+{
+    color:rgb(196, 45, 45);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items:center;
+    font-size: 3vh;
+}
+
+.txtBold
+{
+    font-weight: 600;
+}
+
+.lblUserInfo
+{
+    /* background-color: rgb(185, 202, 237); */
+    font-weight: bold;
+}
+
+.col-25
+{
+    width:25%;
+    float:left;
+    margin-top:2vh;    
+}
+.col-75
+{
+    width:75%;
+    float:left;
+    margin-top:2vh;    
+}
+
+input[type=text]{
+    width:50%
+}
+
